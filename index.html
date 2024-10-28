@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roaring</title>
+    <meta name="author" content="Usheninte Dangana" />
+    <!-- stylesheet -->
+    <style>
+      body {
+  background-color: #232425;
+  color: #f0f0f0;
+  font-size: 20px;
+  padding: 0 3rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover {
+  color: #c790f1;
+}
+
+.hint {
+  color: #c790f1;
+  font-size: 2rem;
+}
+
+#linkGroup {
+  margin: 3rem 1rem;
+}
+
+.linkBox {
+  padding: 1rem;
+  margin: 1rem 2rem;
+  text-decoration: underline;
+  text-decoration-color: #f0f0f0;
+  font-size: 1.4rem;
+}
+
+/* Company Page */
+
+#companyInfo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 20%;
+}
+
+.infoBlock {
+  background-color: #f0f0f0;
+  color: #232425;
+  padding: 2rem;
+  margin: 1rem 3rem;
+  width: 20%;
+}
+
+.infoHeader {
+  color: #c790f1;
+  font-size: 1.4rem;
+}
+
+.divider {
+  background-color: #232425;
+  height: 0.1rem;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+/* Mobile Responsiveness */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #companyInfo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .infoBlock {
+    background-color: #f0f0f0;
+    color: #232425;
+    padding: 2rem;
+    margin: 1rem;
+    width: 80vw;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  #companyInfo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .infoBlock {
+    background-color: #f0f0f0;
+    color: #232425;
+    padding: 2rem;
+    margin: 1rem;
+    width: 80vw;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #companyInfo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .infoBlock {
+    background-color: #f0f0f0;
+    color: #232425;
+    padding: 2rem;
+    margin: 1rem;
+    width: 80vw;
+  }
+}
+
+@media (min-width: 280px) and (max-height: 700px) {
+  #companyInfo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .infoBlock {
+    background-color: #f0f0f0;
+    color: #232425;
+    padding: 2rem;
+    margin: 1rem;
+    width: 80vw;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <h1>Roaring</h1>
+    <p class="hint"><em>Supporting Digital Entrepreneurs</em></p>
+    <p>Innovation Management for Ventures in Emerging Markets</p>
+    <div id="companyInfo">
+      <span class="infoBlock">
+        <h4 class="infoHeader">Mission</h4>
+        <span class="divider"></span>
+        <p>To improve the way entrepreneurs execute by providing them with effective technology tools.</p>
+      </span>
+      <span class="infoBlock">
+        <h4 class="infoHeader">Vision</h4>
+        <span class="divider"></span>
+        <p>To change how ventures operate in Africa, through the delivery of value using innovative technology.</p>
+      </span>
+    </div>
+  </body>
+  </html>
