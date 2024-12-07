@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Roaring</title>
-    <meta name="author" content="Usheninte Dangana" />
+    <meta name="author" content="Ninte Dangana" />
     <meta name="description" content="Making Progress Easy" />
-    <!-- stylesheet -->
+    <!-- Stylesheet -->
     <style>
       body {
         background-color: #191970;
@@ -25,6 +25,10 @@
       a:hover {
         color: #63b8ff;
       }
+
+      #title {
+        text-decoration: underline;
+        text-decoration-color: #f0f0f0;
       
       .hint {
         color: #63b8ff;
@@ -144,7 +148,7 @@
     </style>
   </head>
   <body>
-    <h1>Roaring</h1>
+    <h1 id="title">Roaring</h1>
     <p class="hint"><em>Supporting Entrepreneurs</em></p>
     <p>Innovation Management for Ventures in Emerging Markets</p>
     <div id="companyInfo">
@@ -159,5 +163,19 @@
         <p>To change how ventures innovate in Africa, through strategic management of digital solutions.</p>
       </span>
     </div>
+    <a href="https://www.linkedin.com/company/roar-of-africa/?viewAsMember=true">LinkedIn - Business Page</a>
+    <br /><br />
+    <section>
+      <footer>
+        <p>All Rights Reserved &copy; <span id="year"></span></p>
+      </footer>
+    </section>
+
+    <!-- JavaScript  -->
+    <script>
+      // Current year
+      var year = document.getElementById('year');
+      year.innerHTML = new Date().getFullYear();
+    </script>
   </body>
   </html>
