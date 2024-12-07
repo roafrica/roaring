@@ -3,13 +3,13 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Roaring</title>
+        <title>Raining</title>
         <meta name="author" content="Ninte Dangana" />
         <meta name="description" content="Making Progress Easy" />
         <!-- Stylesheet -->
         <style>
             body {
-                background-color: #191970;
+                background-color: #000;
                 color: #f0f0f0;
                 font-size: 20px;
                 padding: 0 3rem;
@@ -23,21 +23,21 @@
             a,
             a:visited,
             a:hover {
-                color: #63b8ff;
+                color: #3cb271;
             }
 
             #title {
                 text-decoration: underline;
-                text-decoration-color: #f0f0f0;
+                text-decoration-color: #191970;
             }
 
             .hint {
-                color: #63b8ff;
+                color: #3cb271;
                 font-size: 2rem;
             }
 
             .hintAlt {
-                color: #63b8ff;
+                color: #3cb271;
             }
 
             #linkGroup {
@@ -75,14 +75,24 @@
             }
 
             .divider {
-                background-color: #63b8ff;
+                background-color: #3cb271;
                 height: 0.1rem;
                 display: block;
                 margin-bottom: 2rem;
             }
 
+            .hintGreen {
+                color: #3cb271;
+            }
+
+            .hintBlue {
+                color: #191970;
+            }
+
             #linkedinPage {
                 color: #f0f0f0;
+                text-decoration: underline;
+                text-decoration-color: #3cb271;
             }
 
             /* Mobile Responsiveness */
@@ -114,7 +124,7 @@
 
                 .infoBlock {
                     background-color: #f0f0f0;
-                    color: #1;
+                    color: #191970;
                     padding: 2rem;
                     margin: 1rem;
                     width: 80vw;
@@ -157,13 +167,12 @@
         </style>
     </head>
     <body>
-        <h1 id="title">Roaring</h1>
+        <h1 id="title">Ra<span class="hintGreen">i</span>n<span class="hintGreen">i</span>ng</h1>
         <p class="hint"><em>Supporting Entrepreneurs</em></p>
         <p>
-            Innovation Management for Ventures in Emerging Markets | Visit us on
-            <a id="linkedinPage" href="https://www.linkedin.com/company/roar-of-africa/?viewAsMember=true"
-                ><u>LinkedIn</u></a
-            >
+            Innovation Management <span class="hintBlue">|</span> Ventures in Emerging Markets
+            <span class="hintBlue">|</span> Visit us on
+            <a id="linkedinPage" href="https://www.linkedin.com/company/roar-of-africa/?viewAsMember=true">LinkedIn</a>
         </p>
         <div id="companyInfo">
             <span class="infoBlock">
@@ -180,7 +189,7 @@
         <br /><br />
         <section>
             <footer>
-                <p>All Rights Reserved &copy; <span id="year"></span></p>
+                <p>All Rights Reserved <span class="hintBlue">&copy;</span> <span id="year"></span></p>
             </footer>
         </section>
 
